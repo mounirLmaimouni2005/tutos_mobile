@@ -1,0 +1,13 @@
+sequenceDiagram
+    actor  auteur
+    participant system_blog
+    auteur->>system_blog: acceder a  ajouter un article
+    system_blog-->>auteur: afficher un form
+    auteur->>system_blog: remplir les infos (titre-contenu-category-status-image..)et click enregistrer
+    alt le contenu est vide
+        system_blog-->>auteur: refuser l enregistrement avec messege d erreur(le contenu est obligatoire)
+    else status est brouant
+        system_blog-->>auteur: enregister l article dans la DB sous form de brouiant et redirect vers list articles
+    else cas nominal
+    system_blog-->>auteur: enregistrer l article et redirect dans la list d articles
+    end
