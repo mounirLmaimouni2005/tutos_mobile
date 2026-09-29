@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "nom": "Développement Web",
+        "couleur": "Bleu",
+        "icone": "💻"
+    },
+    {
+        "id": 2,
+        "nom": "Design UI\/UX",
+        "couleur": "Violet",
+        "icone": "🎨"
+    },
+    {
+        "id": 3,
+        "nom": "Marketing Digital",
+        "couleur": "Orange",
+        "icone": "📢"
+    },
+    {
+        "id": 4,
+        "nom": "Base de données",
+        "couleur": "Vert",
+        "icone": "🗄️"
+    },
+    {
+        "id": 5,
+        "nom": "Sécurité",
+        "couleur": "Rouge",
+        "icone": "uhhiuh"
+    },
+    {
+        "id": 6,
+        "nom": "nBDVKDJBKJV",
+        "couleur": "NJdnjl",
+        "icone": "SDQ"
+    },
+    {
+        "id": 7,
+        "nom": "nBDVKDJBKJV",
+        "couleur": "NJdnjl",
+        "icone": "SDQ"
+    },
+    {
+        "id": 8,
+        "nom": "sfjSFLJsf",
+        "couleur": "sfqSFJqklsf",
+        "icone": "jsfjkqsflkj"
+    },
+    {
+        "id": 9,
+        "nom": "SFNnqflj",
+        "couleur": "skfnsknf",
+        "icone": "sfnLKSFN"
+    },
+    {
+        "id": 10,
+        "nom": "S",
+        "couleur": "Sq",
+        "icone": "SDd"
+    },
+    {
+        "id": 11,
+        "nom": "Développement Web",
+        "couleur": "Bleus",
+        "icone": "💻"
+    },
+    {
+        "id": 12,
+        "nom": "Design UI\/UX",
+        "couleur": "Violet",
+        "icone": "🎨"
+    }
+]
