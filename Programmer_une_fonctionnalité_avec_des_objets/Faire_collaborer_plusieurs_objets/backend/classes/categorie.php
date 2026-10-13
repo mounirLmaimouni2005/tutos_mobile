@@ -1,4 +1,5 @@
 <?php
+
 class Categorie {
     private int $id;
     private string $nom;
@@ -17,4 +18,22 @@ class Categorie {
     public function getCouleur(): string { return $this->couleur; }
     public function getIcone(): string { return $this->icone; }
 }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ?>
