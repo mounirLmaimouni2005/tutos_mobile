@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "nom": "Informatique",
+        "couleur": "#2563eb",
+        "icone": "💻"
+    },
+    {
+        "id": 2,
+        "nom": "Sport",
+        "couleur": "#16a34a",
+        "icone": "⚽"
+    },
+     {
+        "id": 2,
+        "nom": "food",
+        "couleur": "#16a34a",
+        "icone": "dl"
+    }
+]
