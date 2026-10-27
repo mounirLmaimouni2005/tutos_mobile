@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toast Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+        <h1>Gestion des catégories</h1>
+
+        <form id="form-categorie">
+            <label for="nom">Nom de la catégorie</label>
+            <input
+                type="text"
+                id="nom"
+                name="nom"
+                placeholder="Ex: JavaScript"
+                required
+            >
+
+            <label for="description">Description</label>
+            <textarea
+                id="description"
+                name="description"
+                placeholder="Description de la catégorie"
+                required
+            ></textarea>
+
+            <button type="submit" id="btn-submit-form">
+                <span id="spinner" class="hidden"></span>
+                <span id="btn-text">Enregistrer</span>
+            </button>
+        </form>
+    </main>
+
+    <div id="toast-container"></div>
+
+    <script src="assetes/script.js"></script>
+</body>
+</html>
