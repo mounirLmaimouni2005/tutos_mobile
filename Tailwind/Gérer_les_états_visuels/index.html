@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toast Practice</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="">
+</head>
+<body class="bg-gray-100 p-6">
+
+    <main class="container mx-auto max-w-lg rounded-lg bg-white p-6 shadow-lg">
+        <h1 class="mb-6 text-2xl font-bold">Gestion des catégories</h1>
+
+        <form id="form-categorie" class="space-y-3">
+            <label for="nom" class="block font-medium">Nom de la catégorie</label>
+            <input
+                type="text"
+                id="nom"
+                name="nom"
+                placeholder="Ex: JavaScript"
+                required
+                class="w-full border border-gray-300 rounded p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            >
+
+            <label for="description" class="block font-medium">Description</label>
+            <textarea
+                id="description"
+                name="description"
+                placeholder="Description de la catégorie"
+                required
+                class="w-full border border-gray-300 rounded p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            ></textarea>
+
+            <button
+                type="submit"
+                id="btn-submit-form"
+                class="flex w-full items-center justify-center gap-2 rounded bg-blue-600 p-3 text-white transition duration-200 ease-in-out hover:bg-blue-700 disabled:cursor-not-allowed disabled:opacity-75"
+            >
+                <span id="spinner" class="hidden animate-spin">⏳</span>
+                <span id="btn-text">Enregistrer</span>
+            </button>
+        </form>
+    </main>
+
+    <div id="toast-container" class="fixed right-4 top-4 z-50 space-y-2"></div>
+
+    <script src="assetes/script.js"></script>
+</body>
+</html>
